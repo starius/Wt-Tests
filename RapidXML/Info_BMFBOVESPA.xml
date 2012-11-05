@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Wed Jun 29 13:55:14 +0000 2011</created_at>
+  <id>86070222179672065</id>
+  <text>Saiba o que o Ombudsman faz e como voc&#234; deve proceder quando tem alguma reclama&#231;&#227;o a fazer sobre o mercado de capitais http://t.co/CVJOaMk</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>1</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Jun 29 12:22:37 +0000 2011</created_at>
+  <id>86046913677377536</id>
+  <text>In&#237;cio de negocia&#231;&#227;o das a&#231;&#245;es da Qualicorp no Novo Mercado (c&#243;digo QUAL3) http://t.co/3rypM7M</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>5</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17844</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 20:34:24 +0000 2011</created_at>
+  <id>85808287076974592</id>
+  <text>Hoje o Ibovespa fechou em alta de 1,77%, aos 62.303 pontos. Mais detalhes em http://t.co/uPK8aMw</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>8</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 19:34:22 +0000 2011</created_at>
+  <id>85793180548730880</id>
+  <text>Bolsa anuncia os vencedores da concorr&#234;ncia para gest&#227;o dos ETFs de Dividendos, Materiais B&#225;sicos e Utilidade P&#250;blica http://t.co/QCcWb1p</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>1</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 18:39:05 +0000 2011</created_at>
+  <id>85779266830209024</id>
+  <text>Quer ser s&#243;cio de um neg&#243;cio que j&#225; deu certo? As melhores empresas do Brasil est&#227;o aqui http://t.co/3waEAoA</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>4</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17840</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2378</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>784</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 17:04:11 +0000 2011</created_at>
+  <id>85755382399647744</id>
+  <text>@reehis preparamos um tutorial que explica de forma did&#225;tica o que s&#227;o a&#231;&#245;es, e como participar desse mercado. Assista http://t.co/1pEpYPX</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>85531739644104704</in_reply_to_status_id>
+  <in_reply_to_user_id>93863053</in_reply_to_user_id>
+  <in_reply_to_screen_name>reehis</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 17:02:07 +0000 2011</created_at>
+  <id>85754865736880128</id>
+  <text>@worldph o primeiro passo para investir na Bolsa &#233; definir um objetivo. Confira todos as etapas no nosso guia: http://t.co/q3VMYFK</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>85454234736279552</in_reply_to_status_id>
+  <in_reply_to_user_id>181269621</in_reply_to_user_id>
+  <in_reply_to_screen_name>worldph</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 17:01:11 +0000 2011</created_at>
+  <id>85754629811478528</id>
+  <text>@CassiusPacheco_ voc&#234; pode compartilhar resultados no SimulA&#231;&#227;o com amigos no Facebook/Orkut: conhe&#231;a nosso aplicativo http://t.co/3fjUc9C</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>85529246390431746</in_reply_to_status_id>
+  <in_reply_to_user_id>224815093</in_reply_to_user_id>
+  <in_reply_to_screen_name>CassiusPacheco_</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 14:14:50 +0000 2011</created_at>
+  <id>85712765418864640</id>
+  <text>@FelipeLouiz j&#225; escolheu sua corretora? Saiba o que elas fazem e como escolher a sua: www.bmfbovespa.com.br/corretoras Bons investimentos!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>85682758109769728</in_reply_to_status_id>
+  <in_reply_to_user_id>161926811</in_reply_to_user_id>
+  <in_reply_to_screen_name>FelipeLouiz</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 14:10:33 +0000 2011</created_at>
+  <id>85711687616958464</id>
+  <text>Revista Capital Aberto: entidades criam o Novo Mercado de Renda Fixa, a mais recente cartada a favor da d&#237;vida privada http://t.co/0nnfe1y</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>2</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17844</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 12:57:26 +0000 2011</created_at>
+  <id>85693286781693952</id>
+  <text>@IsabelaSouzan voc&#234; conhece nosso guia que ensina como investir na Bolsa? http://t.co/q3VMYFK. Veja tamb&#233;m nossos cursos http://t.co/ebVGuiR</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>85130518672314368</in_reply_to_status_id>
+  <in_reply_to_user_id>189649766</in_reply_to_user_id>
+  <in_reply_to_screen_name>IsabelaSouzan</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jun 28 12:36:17 +0000 2011</created_at>
+  <id>85687966038622209</id>
+  <text>De olho na agenda: confira as pr&#243;ximas paradas da Bolsa pelo Brasil afora e tire as suas d&#250;vidas sobre nossos mercados http://t.co/yjxCO88</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 20:21:34 +0000 2011</created_at>
+  <id>85442669379198976</id>
+  <text>Hoje o Ibovespa fechou em alta de 0,33%, aos 61.216 pontos. Mais detalhes em http://t.co/uPK8aMw</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>8</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 18:37:33 +0000 2011</created_at>
+  <id>85416493952667648</id>
+  <text>Participe da palestra &#8220;Fundos de Renda Fixa no Brasil: passado, presente e futuro&#8221;. Dia 13/07, em S&#227;o Paulo http://t.co/kocaTBk</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>5</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2379</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 17:52:00 +0000 2011</created_at>
+  <id>85405030370390016</id>
+  <text>@kloecknerpires n&#227;o h&#225; idade m&#237;nima para investir. Basta possuir CPF e, se for menor de 16 anos, ser representado por seus pais/respons&#225;vel.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>84416933470019584</in_reply_to_status_id>
+  <in_reply_to_user_id>189926747</in_reply_to_user_id>
+  <in_reply_to_screen_name>kloecknerpires</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 17:51:21 +0000 2011</created_at>
+  <id>85404868235366400</id>
+  <text>@_FelipeDiniz_ Seja bem vindo, e bons investimentos!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>84725220916740096</in_reply_to_status_id>
+  <in_reply_to_user_id>215772707</in_reply_to_user_id>
+  <in_reply_to_screen_name>_FelipeDiniz_</in_reply_to_screen_name>
+  <retweet_count>1</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 16:56:34 +0000 2011</created_at>
+  <id>85391081402937345</id>
+  <text>@Marlon_BP A Bolsa oferece cursos gratuitos, online e presenciais, para iniciantes no mercado de a&#231;&#245;es. Confira: http://t.co/ebVGuiR</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id>84270554269499392</in_reply_to_status_id>
+  <in_reply_to_user_id>84920093</in_reply_to_user_id>
+  <in_reply_to_screen_name>Marlon_BP</in_reply_to_screen_name>
+  <retweet_count>0</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17841</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>2378</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent></follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 16:42:53 +0000 2011</created_at>
+  <id>85387635010445312</id>
+  <text>Nas f&#233;rias de julho, crian&#231;as t&#234;m mais tempo livre, o que gera mais gastos. Veja como aproveitar sem gastar demais http://t.co/Pkse6q0</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>4</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17843</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2378</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 14:04:43 +0000 2011</created_at>
+  <id>85347830675406848</id>
+  <text>Tesouro Direto: investimento em t&#237;tulos p&#250;blicos bate recorde de volume em maio http://t.co/9ccmTxs</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>7</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Jun 27 12:16:19 +0000 2011</created_at>
+  <id>85320550704087040</id>
+  <text>In&#237;cio de negocia&#231;&#227;o das a&#231;&#245;es da Brazil Pharma no Novo Mercado (c&#243;digo BPHA3) http://t.co/rNgFvlx</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <favorited>false</favorited>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <retweet_count>2</retweet_count>
+  <retweeted>false</retweeted>
+  <user>
+    <id>74550038</id>
+    <name>BM&amp;FBOVESPA</name>
+    <screen_name>Info_BMFBOVESPA</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>Canal oficial da BM&amp;FBOVESPA. A Bolsa &#233; pra voc&#234;!</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url>
+    <profile_image_url_https>https://si0.twimg.com/profile_images/434235593/avatar_bovespa_normal.png</profile_image_url_https>
+    <url>http://www.bmfbovespa.com.br</url>
+    <protected>false</protected>
+    <followers_count>17845</followers_count>
+    <profile_background_color>004785</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>05688c</profile_link_color>
+    <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+    <friends_count>27</friends_count>
+    <created_at>Tue Sep 15 20:42:54 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url>
+    <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/39716207/BGTwitter_003.jpg</profile_background_image_url_https>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>2380</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+    <listed_count>785</listed_count>
+    <show_all_inline_media>false</show_all_inline_media>
+    <default_profile>false</default_profile>
+    <default_profile_image>false</default_profile_image>
+    <is_translator>false</is_translator>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+</statuses>

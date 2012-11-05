@@ -1,0 +1,8 @@
+site: http://www.gitorious.org/wt/tests
+
+git clone git://gitorious.org/wt/tests.git
+
+git clone https://git.gitorious.org/wt/tests.git
+
+Wt tests
+

@@ -1,0 +1,13 @@
+set(twitterSrcs twitter.cpp webui.cpp xmlparse.cpp)
+    if(COMMAND cmake_policy)
+      cmake_policy(SET CMP0003 NEW)
+    endif(COMMAND cmake_policy)  
+FIND_PACKAGE(PkgConfig)
+FIND_PACKAGE(Tinyxml)
+FIND_PACKAGE(Wt REQUIRED)
+SET (WT_CONNECTOR "wthttp")
+include_directories (${Wt_INCLUDE_DIR} )  
+add_executable(twitter.fcgi ${twitterSrcs} )
+target_link_libraries(twitter.fcgi ${WT_CONNECTOR} ${Wt_DBO_LIBRARY} ${Wt_DBOPOSTGRES_LIBRARY} ${TINYXML_LIBRARIES}  navbar wt wtdbo wtdbopostgres dl -lcurl -ltwit)
+
+install(TARGETS twitter.fcgi DESTINATION lib/cgi-bin) 
