@@ -1,13 +1,15 @@
 #!/bin/bash
 # sh ${root}script/run.sh -a
 
-project="WStackedWidget";
+project="WStackedWidget"; # choose what project to compile and run
+
 PWD="`pwd`"
 path=${PWD}"/"${project};
 
 rm -rf /tmp/build/wt/tests; mkdir -p /tmp/build/wt/tests; cd /tmp/build/wt/tests;
 
-cmake -std=gnu++0x -march=core2 -mtune=core2 -O2 -Wall -Wextra -pedantic ${path}
+cmake -O0 -Wall -Wextra -pedantic ${path}
+# cmake -std=gnu++0x -march=core2 -mtune=core2 -O2 -Wall -Wextra -pedantic ${path}
 
 time make -j2
 

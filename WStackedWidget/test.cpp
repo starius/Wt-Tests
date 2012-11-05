@@ -11,7 +11,8 @@
 using namespace std;
 using namespace Wt;
 
-// *********************************************************************************************************************
+// *****************************************************************************
+
 /** Create Page Deferred - Class */
 template <typename Function>
 class DeferredWidget : public Wt::WContainerWidget {
@@ -35,7 +36,7 @@ DeferredWidget<Function> *deferCreate(Function f) {
   return new DeferredWidget<Function>(f);
 }
 
-// *********************************************************************************************************************
+// *****************************************************************************
 
 /** 2 others classes: Home & About */
 class Home : public Wt::WContainerWidget {
@@ -46,7 +47,7 @@ public:
 };
 
 Home::Home() {
-  cout << "Home Created" << endl;
+  cout << "Home upTime" << endl;
   upTime();
 }
 
@@ -66,7 +67,7 @@ public:
 };
 
 About::About() {
-  cout << "About Created" << endl;
+  cout << "About upTime" << endl;
   upTime();
 }
 
@@ -76,13 +77,12 @@ void About::upTime() {
   this->addWidget(new WText(WDateTime::currentDateTime().toString()));
 }
 
-// *********************************************************************************************************************
+// *****************************************************************************
 
 /** Wt Class */
 class WtApplication : public WApplication {
 public:
   WtApplication(const WEnvironment& env);
-  Wt::Signal<WMenuItem *>& selected();
 
 private:
   Home* home_;
@@ -90,13 +90,16 @@ private:
   Wt::WWidget* menuHome();
   Wt::WWidget* menuAbout();
   Wt::WTemplate* staticPage(std::string str);
-  Wt::Signal<WMenuItem *> selected_;
+  WMenuItem* home_item_;
+  WMenuItem* about_item_;
 
-  void mnItemSelected();
+  void mnItemSelected(WMenuItem*);
 };
 
+// *****************************************************************************
+
 /** Wt Session Start */
-WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), selected_(this), home_(NULL), about_(NULL) {
+WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), home_(NULL), about_(NULL) {
   //WtApplication *app = (WtApplication*)WApplication::instance();
   //app->internalPathChanged().connect(this, &WtApplication::appInternalPathChanged);
 
@@ -110,45 +113,44 @@ WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), selec
   mn->setInternalPathEnabled();
   mn->itemSelected().connect(this, &WtApplication::mnItemSelected);
 
-  mn->addItem("Home Page", deferCreate(boost::bind(&WtApplication::menuHome, this)))->setPathComponent("Home");
-  mn->addItem("About This Site", deferCreate(boost::bind(&WtApplication::menuAbout, this)))->setPathComponent("About");
+  home_item_ = mn->addItem("Home Page", deferCreate(boost::bind(&WtApplication::menuHome, this)));
+  home_item_->setPathComponent("Home");
+  about_item_ = mn->addItem("About This Site", deferCreate(boost::bind(&WtApplication::menuAbout, this)));
+  about_item_->setPathComponent("About");
 
   root()->addWidget(mn);
   root()->addWidget(sw);
 }
 
 WWidget* WtApplication::menuHome() {
-  home_ = new Home();
   cout << "Home Instantiate" << endl;
-  return home_;
+  return home_ = new Home();
 }
 
 WWidget* WtApplication::menuAbout() {
-  about_ = new About();
   cout << "About Instantiate" << endl;
-  return about_;
+  return about_ = new About();
 }
 
-Signal<WMenuItem *>& WtApplication::selected() {
-  cout << "Signal Emit" << endl;
-  return selected_;
-}
-
-void WtApplication::mnItemSelected() {
-  //selected_.emit();
-
-  if (home_ != NULL) {
-    home_->upTime();
-    cout << "Home Executed" << endl;
+void WtApplication::mnItemSelected(WMenuItem* item) {
+  if(item == home_item_) {
+    cout << "Home Selected" << endl;
+    if(home_ != NULL) {
+      home_->upTime();
+      cout << "Home Executed" << endl;
+    }
   }
 
-  if (about_ != NULL) {
-    about_->upTime();
-    cout << "About Executed" << endl;
+  if(item == about_item_) {
+    cout << "About Selected" << endl;
+    if(about_ != NULL) {
+      about_->upTime();
+      cout << "About Executed" << endl;
+    }
   }
 }
 
-// *********************************************************************************************************************
+// *****************************************************************************
 
 WApplication* createApplication(const WEnvironment& env) {
   return new WtApplication(env);
