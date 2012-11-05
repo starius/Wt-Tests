@@ -91,8 +91,10 @@ private:
   Wt::WWidget* menuAbout();
   Wt::WTemplate* staticPage(std::string str);
   Wt::Signal<WMenuItem *> selected_;
+  WMenuItem* home_item_;
+  WMenuItem* about_item_;
 
-  void mnItemSelected();
+  void mnItemSelected(WMenuItem*);
 };
 
 /** Wt Session Start */
@@ -110,8 +112,10 @@ WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), selec
   mn->setInternalPathEnabled();
   mn->itemSelected().connect(this, &WtApplication::mnItemSelected);
 
-  mn->addItem("Home Page", deferCreate(boost::bind(&WtApplication::menuHome, this)))->setPathComponent("Home");
-  mn->addItem("About This Site", deferCreate(boost::bind(&WtApplication::menuAbout, this)))->setPathComponent("About");
+  home_item_ = mn->addItem("Home Page", deferCreate(boost::bind(&WtApplication::menuHome, this)));
+  home_item_->setPathComponent("Home");
+  about_item_ = mn->addItem("About This Site", deferCreate(boost::bind(&WtApplication::menuAbout, this)));
+  about_item_->setPathComponent("About");
 
   root()->addWidget(mn);
   root()->addWidget(sw);
@@ -134,8 +138,15 @@ Signal<WMenuItem *>& WtApplication::selected() {
   return selected_;
 }
 
-void WtApplication::mnItemSelected() {
+void WtApplication::mnItemSelected(WMenuItem* item) {
   //selected_.emit();
+
+  if (item == home_item_) {
+      cout << "Home selected" << endl;
+  }
+  if (item == about_item_) {
+      cout << "About selected" << endl;
+  }
 
   if (home_ != NULL) {
     home_->upTime();
