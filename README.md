@@ -11,4 +11,5 @@ git clone git://github.com/JohnRobson/Wt-Tests.git
 
 run:
 $ cd Wt-Tests
+
 $ ./run.sh
