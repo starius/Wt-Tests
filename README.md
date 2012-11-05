@@ -9,5 +9,6 @@ source: https://github.com/JohnRobson/Wt-Tests
 
 git clone git://github.com/JohnRobson/Wt-Tests.git
 
-run: change "path" in "run.sh" and execute:
-$ Wt-Tests/run.sh
+run:
+$ cd Wt-Tests
+$ ./run.sh

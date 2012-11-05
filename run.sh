@@ -2,12 +2,12 @@
 # sh ${root}script/run.sh -a
 
 project="WStackedWidget";
-path="./Wt-Tests/"${project};
-#path="~/projects/wt/tests/"${project};
+PWD="`pwd`"
+path=${PWD}"/"${project};
 
 rm -rf /tmp/build/wt/tests; mkdir -p /tmp/build/wt/tests; cd /tmp/build/wt/tests;
 
-cmake -std=gnu++0x -march=core2 -mtune=core2 -O2 -Wall -Wextra -pedantic ~/projects/wt/tests/${project}
+cmake -std=gnu++0x -march=core2 -mtune=core2 -O2 -Wall -Wextra -pedantic ${path}
 
 time make -j2
 
