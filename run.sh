@@ -2,6 +2,8 @@
 # sh ${root}script/run.sh -a
 
 project="WStackedWidget";
+path="./Wt-Tests/"${project};
+#path="~/projects/wt/tests/"${project};
 
 rm -rf /tmp/build/wt/tests; mkdir -p /tmp/build/wt/tests; cd /tmp/build/wt/tests;
 

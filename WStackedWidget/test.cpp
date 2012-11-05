@@ -1,5 +1,3 @@
-// for run execute: tests/run.sh
-
 #include <Wt/WApplication>
 #include <Wt/WContainerWidget>
 #include <Wt/WStackedWidget>
