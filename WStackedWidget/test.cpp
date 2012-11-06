@@ -73,7 +73,7 @@ private:
 void Users::showPage(int page) {
   // Comment this 'clear', the result shows that the WMenu is working with one class and a static page.
   // The first link clicked never updated, but the second link clicked always update.
-  //this->clear();
+  this->clear();
 
   switch(page) {
   case 1: {
@@ -165,9 +165,9 @@ cout << "Users Instantiate" << endl;
   // Comment this 'IF', will work, but the first (Register or Login) clicked won't update anymore (in fact, if you pay attention, when you click on another link, it updates very fast, but always comes back to the old value).
   // Uncomment this 'IF', will work, but the first (Register or Login) clicked will broke the WStackedWidget (I guess).
 
-  //if(users_ == NULL) {
+  if(users_ == NULL) {
     users_ = new Users();
-  //}
+  }
 
   return users_;
 }
