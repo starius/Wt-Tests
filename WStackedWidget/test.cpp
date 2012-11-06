@@ -38,7 +38,6 @@ DeferredWidget<Function> *deferCreate(Function f) {
 
 // *****************************************************************************
 
-/** 2 others classes: Home & About */
 class Home : public Wt::WContainerWidget {
 private:
 public:
@@ -47,7 +46,7 @@ public:
 };
 
 Home::Home() {
-  cout << "Home upTime" << endl;
+cout << "Home upTime" << endl;
   upTime();
 }
 
@@ -59,22 +58,49 @@ void Home::upTime() {
 
 // *****************************************************************************
 
-class About : public Wt::WContainerWidget {
-private:
+class Users : public Wt::WContainerWidget {
 public:
-  About();
+  //Users();
+  void showPage(int page);
   void upTime();
+private:
+  WTemplate* Register();
+  WTemplate* Login();
 };
 
-About::About() {
-  cout << "About upTime" << endl;
+//Users::Users() { }
+
+void Users::showPage(int page) {
+  // Comment this 'clear', the result shows that the WMenu is working with one class and a static page.
+  // The first link clicked never updated, but the second link clicked always update.
+  //this->clear();
+
+  switch(page) {
+  case 1: {
+    Register();
+    break;
+  }
+  case 2: {
+    Login();
+    break;
+  }
+  }
+
   upTime();
 }
 
-void About::upTime() {
-  this->clear();
-  this->addWidget(new WText("<b>About</b> Click<br>&nbsp;</br>"));
+void Users::upTime() {
   this->addWidget(new WText(WDateTime::currentDateTime().toString()));
+}
+
+WTemplate* Users::Register() {
+  this->addWidget(new WText("<br>&nbsp;</br><b>Users</b> Register<br>&nbsp;</br>"));
+cout << "Users - Register" << endl;
+}
+
+WTemplate* Users::Login() {
+  this->addWidget(new WText("<br>&nbsp;</br><b>Users</b> Login<br>&nbsp;</br>"));
+cout << "Users - Login" << endl;
 }
 
 // *****************************************************************************
@@ -86,12 +112,13 @@ public:
 
 private:
   Home* home_;
-  About* about_;
+  Users* users_;
   Wt::WWidget* menuHome();
-  Wt::WWidget* menuAbout();
+  Wt::WWidget* menuUsers();
   Wt::WTemplate* staticPage(std::string str);
-  WMenuItem* home_item_;
-  WMenuItem* about_item_;
+  Wt::WMenuItem* home_item_;
+  Wt::WMenuItem* users_register_;
+  Wt::WMenuItem* users_login_;
 
   void mnItemSelected(WMenuItem*);
 };
@@ -99,12 +126,12 @@ private:
 // *****************************************************************************
 
 /** Wt Session Start */
-WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), home_(NULL), about_(NULL) {
+WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), home_(NULL), users_(NULL) {
   //WtApplication *app = (WtApplication*)WApplication::instance();
   //app->internalPathChanged().connect(this, &WtApplication::appInternalPathChanged);
 
   new WText("<b>Updating DeferredWidget</b><br>&nbsp;</br>", root());
-  new WText("How to refresh (update time) pages Home & About with each new click?", root());
+  new WText("How to using the same class Users (in two different links), regardless if it is to Login or Register?", root());
 
   WStackedWidget* sw = new WStackedWidget();
   WMenu* mn = new WMenu(sw, Wt::Horizontal, 0);
@@ -115,37 +142,62 @@ WtApplication::WtApplication(const WEnvironment& env) : WApplication(env), home_
 
   home_item_ = mn->addItem("Home Page", deferCreate(boost::bind(&WtApplication::menuHome, this)));
   home_item_->setPathComponent("Home");
-  about_item_ = mn->addItem("About This Site", deferCreate(boost::bind(&WtApplication::menuAbout, this)));
-  about_item_->setPathComponent("About");
+
+  users_register_ = mn->addItem("User Register", deferCreate(boost::bind(&WtApplication::menuUsers, this)));
+  users_register_->setPathComponent("Register");
+
+  users_login_ = mn->addItem("User Login", deferCreate(boost::bind(&WtApplication::menuUsers, this)));
+  users_login_->setPathComponent("Login");
 
   root()->addWidget(mn);
   root()->addWidget(sw);
 }
 
+
 WWidget* WtApplication::menuHome() {
-  cout << "Home Instantiate" << endl;
+cout << "Home Instantiate" << endl;
   return home_ = new Home();
 }
 
-WWidget* WtApplication::menuAbout() {
-  cout << "About Instantiate" << endl;
-  return about_ = new About();
+WWidget* WtApplication::menuUsers() {
+cout << "Users Instantiate" << endl;
+
+  // Comment this 'IF', will work, but the first (Register or Login) clicked won't update anymore (in fact, if you pay attention, when you click on another link, it updates very fast, but always comes back to the old value).
+  // Uncomment this 'IF', will work, but the first (Register or Login) clicked will broke the WStackedWidget (I guess).
+
+  //if(users_ == NULL) {
+    users_ = new Users();
+  //}
+
+  return users_;
 }
 
 void WtApplication::mnItemSelected(WMenuItem* item) {
+
   if(item == home_item_) {
-    cout << "Home Selected" << endl;
+cout << "Home Selected" << endl;
+
     if(home_ != NULL) {
       home_->upTime();
-      cout << "Home Executed" << endl;
+cout << "Home Executed" << endl;
     }
   }
 
-  if(item == about_item_) {
-    cout << "About Selected" << endl;
-    if(about_ != NULL) {
-      about_->upTime();
-      cout << "About Executed" << endl;
+  if(item == users_register_) {
+cout << "Register Selected" << endl;
+
+    if(users_ != NULL) {
+      users_->showPage(1);
+cout << "Register Executed" << endl;
+    }
+  }
+
+  if(item == users_login_) {
+cout << "Login Selected" << endl;
+
+    if(users_ != NULL) {
+      users_->showPage(2);
+cout << "Login Executed" << endl;
     }
   }
 }

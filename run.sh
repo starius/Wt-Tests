@@ -3,6 +3,7 @@
 
 project="WStackedWidget"; # choose what project to compile and run
 
+
 PWD="`pwd`"
 path=${PWD}"/"${project};
 
