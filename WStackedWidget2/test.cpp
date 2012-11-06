@@ -64,8 +64,8 @@ public:
   void showPage(int page);
   void upTime();
 private:
-  WTemplate* Register();
-  WTemplate* Login();
+  void Register();
+  void Login();
 };
 
 //Users::Users() { }
@@ -91,12 +91,12 @@ void Users::upTime() {
   this->addWidget(new WText(WDateTime::currentDateTime().toString()));
 }
 
-WTemplate* Users::Register() {
+void Users::Register() {
   this->addWidget(new WText("<br>&nbsp;</br><b>Users</b> Register<br>&nbsp;</br>"));
 cout << "Users - Register" << endl;
 }
 
-WTemplate* Users::Login() {
+void Users::Login() {
   this->addWidget(new WText("<br>&nbsp;</br><b>Users</b> Login<br>&nbsp;</br>"));
 cout << "Users - Login" << endl;
 }
