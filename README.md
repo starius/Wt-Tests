@@ -13,3 +13,6 @@ run:
 $ cd Wt-Tests
 
 $ ./run.sh
+
+
+In run.sh you can choose what project to compile and run.

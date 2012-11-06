@@ -115,7 +115,6 @@ private:
   Users* users_;
   Wt::WWidget* menuHome();
   Wt::WWidget* menuUsers();
-  Wt::WTemplate* staticPage(std::string str);
   Wt::WMenuItem* home_item_;
   Wt::WMenuItem* users_register_;
   Wt::WMenuItem* users_login_;
