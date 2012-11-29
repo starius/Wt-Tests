@@ -1,24 +1,42 @@
-/**
-	Folder:		$ mkdir /tmp/wt/; cd /tmp/wt/
-	Git:		$ git clone git://gitorious.org/wt/tests.git  [or]  git clone https://git.gitorious.org/wt/tests.git
-				$ cd tests/WTextArea/
-	Compile:	$ cmake -DEXAMPLES_CONNECTOR="wt;wthttp"
-				$ make
-	Run: 		$ ./test.wt --docroot . --http-addr 0.0.0.0 --http-port 10100
-*/
-
+#include <iostream>
+#include <functional>
+#include <boost/lexical_cast.hpp>
 #include <Wt/WApplication>
 #include <Wt/WContainerWidget>
 #include <Wt/WText>
 #include <Wt/WBreak>
+#include <Wt/WTextArea>
+#include <Wt/WSelectionBox>
 
 using namespace std;
 using namespace Wt;
 
 class WtApplication : public WApplication { public: WtApplication(const WEnvironment& env); };
 
+void sbChanged(Wt::WTextArea* ta, Wt::WSelectionBox* sb) {
+
+  cout << sb->currentIndex() << endl;
+  cout << sb->currentText() << endl;
+
+  ta->setText(boost::lexical_cast<string>(sb->currentText()));
+
+}
+
 WtApplication::WtApplication(const WEnvironment& env) : WApplication(env) {
-	new WText("Hello World", root()); new WBreak(root());
+	new WText("WSelectionBox & WTextArea", root()); new WBreak(root());
+
+  // SelectionBox
+  WSelectionBox* sb = new WSelectionBox(root());
+  sb->addItem("one");
+  sb->addItem("two");
+  sb->addItem("three");
+
+
+  // Text Area
+  WTextArea* ta = new WTextArea(root());
+
+  sb->activated().connect(std::bind(&sbChanged, ta, sb));
+
 }
 
 WApplication *createApplication(const WEnvironment& env) { return new WtApplication(env); }

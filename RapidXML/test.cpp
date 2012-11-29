@@ -1,24 +1,6 @@
 /*
- *
- *
  * LER:  http://stackoverflow.com/questions/347949/convert-stdstring-to-const-char-or-char
- *
- *
- *
  */
-
-
-
-/**
-	Wt Test
-	RapidXML.
-
-	Save in:	/tmp/wt/
-						$ cd /tmp/wt/
-	Compile:	$ cmake -DEXAMPLES_CONNECTOR="wt;wthttp"
-						$ make
-	Run: 			$ ./test.wt --docroot . --http-addr 0.0.0.0 --http-port 10100
-*/
 
 #include <iostream>
 #include <fstream>
