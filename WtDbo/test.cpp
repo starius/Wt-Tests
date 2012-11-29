@@ -1,10 +1,4 @@
 /**
-	Save in:	/tmp/wt/
-						$ cd /tmp/wt/
-	Compile:	$ cmake -DEXAMPLES_CONNECTOR="wt;wthttp"
-						$ make
-	Run: 			$ ./test.wt --docroot . --http-addr 0.0.0.0 --http-port 10100
-	
 	Create PostgreSQL db:
 		Connect:			$ sudo -u postgres psql postgres
 		Create User, DB and set Privileges:
@@ -93,7 +87,7 @@ class WtApplication : public WApplication {
     backend::Sqlite3 connection_;
 #endif
 		Session session_;
-		
+
 		void msg(string str);
 		void populate();
 		void lists();
@@ -134,13 +128,13 @@ void WtApplication::msg(string str) {
 
 void WtApplication::populate() {
 	msg("<b>Populate</b>");
-	
+
 	ptrA a;
-	
+
 	{ A *tuple = new A();
 		//tuple->date = WDateTime::currentDateTime();
 		tuple->date = "A: " + WDateTime::currentDateTime().toString("dd/MM/yy HH:mm:ss").toUTF8();
-	  
+
     try { Transaction tt(session_);
 			a = session_.add(tuple);
 			tt.commit();
@@ -149,7 +143,7 @@ void WtApplication::populate() {
 
   { B *tuple = new B();
 		tuple->date = "B: " + WDateTime::currentDateTime().toString("dd/MM/yy HH:mm:ss").toUTF8();
-		
+
     try { Transaction tt(session_);
 			ptrB b = session_.add(tuple);
 			a.modify()->Bs.insert(b);
@@ -164,22 +158,22 @@ void WtApplication::lists() {
 	try {
 		Transaction tt(session_);
 		colA collect = session_.find<A>();
-		
+
 		for (colA::const_iterator i = collect.begin(); i != collect.end(); ++i)
 			msg((*i)->date);
-		
+
 		tt.commit();
 	} catch (...) {}
-	
+
 	msg("<b>List All Bs:</b>");
 
 	try {
 		Transaction tt(session_);
 		colB collect = session_.find<B>();
-		
+
 		for (colB::const_iterator i = collect.begin(); i != collect.end(); ++i)
 			msg((*i)->date);
-		
+
 		tt.commit();
 	} catch (...) {}
 }
@@ -191,23 +185,23 @@ void WtApplication::listAB(int id) {
 		Transaction tt(session_);
 		ptrA a = session_.find<A>().where("id = ?").bind(id);
 		colB collect = a->Bs;
-		
+
 		for (colB::const_iterator i = collect.begin(); i != collect.end(); ++i)
 			msg((*i)->date);
-		
+
 		tt.commit();
 	} catch (...) {}
-	
+
 	msg("<b>List As From B: " + boost::lexical_cast<string>(id) + "</b>");
 
 	try {
 		Transaction tt(session_);
 		ptrB b = session_.find<B>().where("id = ?").bind(id);
 		colA collect = b->As;
-		
+
 		for (colA::const_iterator i = collect.begin(); i != collect.end(); ++i)
 			msg((*i)->date);
-		
+
 		tt.commit();
 	} catch (...) {}
 }
