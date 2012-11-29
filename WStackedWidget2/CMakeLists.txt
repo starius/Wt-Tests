@@ -6,4 +6,4 @@ find_package(Boost COMPONENTS date_time regex program_options signals system fil
 
 add_executable(test.wt test.cpp)
 
-target_link_libraries(test.wt wt wthttp ${Boost_LIBRARIES}) # wthttp / wtfcgi
+target_link_libraries(test.wt wt wthttp ${Boost_LIBRARIES})
