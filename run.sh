@@ -1,7 +1,7 @@
 #!/bin/bash
 # sh ${root}script/run.sh -a
 
-project="WTextArea"; # choose what project to compile and run
+project="WSelectionBox"; # choose what project to compile and run
 
 
 PWD="`pwd`"

@@ -10,7 +10,7 @@
   3) Compiling:
   $ cd Wt-Tests/<SomeProject>/
 
-  $ cmake -std=c++11 -pedantic -O0 -ggdb3 -Wall -Wextra
+  $ cmake
 
   $ make -j2
 
@@ -22,15 +22,38 @@
 #include <Wt/WApplication>
 #include <Wt/WContainerWidget>
 #include <Wt/WText>
+#include <Wt/WSelectionBox>
 #include <Wt/WBreak>
 
 using namespace std;
 using namespace Wt;
 
-class WtApplication : public WApplication { public: WtApplication(const WEnvironment& env); };
+class WtApplication : public WApplication {
+  public:
+    WtApplication(const WEnvironment& env);
+    void sbChanged(WSelectionBox* sb);
+};
+
+
+void WtApplication::sbChanged(WSelectionBox* sb) {
+  cout << "Selection Box Changed" << endl;
+  cout << "Current: " << sb->currentText() << endl;
+
+  sb->clear();
+  sb->addItem("A");
+  sb->addItem("B");
+  sb->addItem("C");
+}
 
 WtApplication::WtApplication(const WEnvironment& env) : WApplication(env) {
-	new WText("Hello World", root()); new WBreak(root());
+	new WText("WSelectionBox Clear", root()); new WBreak(root());
+
+  WSelectionBox *sb = new WSelectionBox(root());
+  sb->addItem("One");
+  sb->addItem("Two");
+  sb->addItem("Three");
+
+  sb->activated().connect(std::bind(&WtApplication::sbChanged, this, sb));
 }
 
 WApplication *createApplication(const WEnvironment& env) { return new WtApplication(env); }

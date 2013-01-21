@@ -5,7 +5,7 @@ project(Test)
 find_package(Boost COMPONENTS signals REQUIRED) # date_time regex program_options system filesystem thread
 
 if(CMAKE_COMPILER_IS_GNUCXX)
-  set(CMAKE_CXX_FLAGS "-std=gnu++0x -Wall -Wextra -pedantic")
+  set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -Wextra -pedantic")
 endif()
 
 add_executable(test.wt test.cpp)

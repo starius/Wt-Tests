@@ -7,12 +7,15 @@ site: http://wt.zyns.com:10100
 
 source: https://github.com/JohnRobson/Wt-Tests
 
-$ git clone git://github.com/JohnRobson/Wt-Tests.git
+git clone https://github.com/JohnRobson/Wt-Tests.git
+or # $ git clone git://github.com/JohnRobson/Wt-Tests.git
+or # git clone git@github.com:JohnRobson/Wt-Tests.git
 
-run:
 $ cd Wt-Tests
 
+Compile & Run:
 $ ./run.sh
 
 
 In run.sh you can choose what project to compile and run.
+
