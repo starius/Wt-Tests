@@ -7,11 +7,14 @@ site: http://wt.zyns.com:10100
 
 source: https://github.com/JohnRobson/Wt-Tests
 
-git clone https://github.com/JohnRobson/Wt-Tests.git
-or # $ git clone git://github.com/JohnRobson/Wt-Tests.git
-or # git clone git@github.com:JohnRobson/Wt-Tests.git
+$ git clone git://github.com/JohnRobson/Wt-Tests.git
+# or $ git clone https://github.com/JohnRobson/Wt-Tests.git
+# or $ git clone git@github.com:JohnRobson/Wt-Tests.git
 
 $ cd Wt-Tests
+
+# $ gedit run.sh
+# project="FolderName"; # choose Folder Name project to compile and run
 
 Compile & Run:
 $ ./run.sh
