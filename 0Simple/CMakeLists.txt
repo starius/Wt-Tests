@@ -9,7 +9,7 @@ set(CMAKE_CXX_COMPILER "g++-4.7")
 #set(CMAKE_CXX_FLAGS_DEBUG "-std=c++11 -pedantic -Wall -Wextra -O0 -ggdb3 -DDEBUG")
 
 set(CMAKE_BUILD_TYPE "Release")
-set(CMAKE_CXX_FLAGS_DEBUG "-std=c++11 -pedantic -Wall -Wextra -march=core2 -O2 -g0 -DNDEBUG -UNDEBUG -pthread -s")
+set(CMAKE_CXX_FLAGS_RELEASE "-std=c++11 -pedantic -Wall -Wextra -march=core2 -O2 -g0 -DNDEBUG -UNDEBUG -pthread -s")
 
 #find_package(Boost COMPONENTS date_time regex program_options signals system filesystem thread REQUIRED)
 find_package(Boost COMPONENTS REQUIRED)
