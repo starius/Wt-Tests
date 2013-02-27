@@ -1,7 +1,7 @@
 #!/bin/bash
 # sh ${root}script/run.sh -a
 
-project="0Simple"; # choose what project to compile and run
+project="HTML"; # choose what project to compile and run
 
 
 PWD="`pwd`"
