@@ -13,7 +13,7 @@ class WtApplication : public WApplication { public: WtApplication(const WEnviron
 WtApplication::WtApplication(const WEnvironment& env) : WApplication(env) {
   messageResourceBundle().use(appRoot() + "Localized/main");
 
-  WApplication::instance()->require("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");
+  instance()->require("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");
 
   //WTemplate* tp = new WTemplate(WString::tr("index"), root());
 
