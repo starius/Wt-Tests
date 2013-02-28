@@ -13,7 +13,9 @@ class WtApplication : public WApplication { public: WtApplication(const WEnviron
 WtApplication::WtApplication(const WEnvironment& env) : WApplication(env) {
   messageResourceBundle().use(appRoot() + "Localized/main");
 
-  instance()->require("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");
+  bool libReady = instance()->require("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");
+  if (libReady) { new WText("Ready", root()); }
+  else { new WText("Not Ready", root()); }
 
   //WTemplate* tp = new WTemplate(WString::tr("index"), root());
 
